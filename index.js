@@ -1,6 +1,5 @@
 require('dotenv').config();
-const HDMW = require('oip-hdmw');
-const Wallet = HDMW.Wallet;
+const Wallet = require('oip-hdmw').Wallet;
 
 const options = {
     discover: false,
@@ -23,6 +22,7 @@ function getFloAddress(myWallet) {
 } 
 
 function makeFloTransaction(fromWallet, address, amount, floData) {
+    console.log(fromWallet);
     return new Promise((resolve, reject) => {
         fromWallet.sendPayment({
             to: { "oTJ9QrMvg3Uh76dHd9etfjhpqfdv8KKBfN": amount }, floData
