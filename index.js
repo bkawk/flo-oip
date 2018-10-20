@@ -7,8 +7,6 @@ const options = {
     networks: [],
 }
 const myWallet = new Wallet('carbon panda replace drum guess heart inside useless random bulb hint industry', options);
-const coins = myWallet.getCoins()
+const floAddress = myWallet.getCoin('flo').getMainAddress().getPublicAddress();
 
-console.log('My Wallets Coins:')
-console.log(coins)
-
+console.log(floAddress)
