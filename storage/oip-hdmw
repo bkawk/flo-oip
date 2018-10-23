@@ -22,10 +22,12 @@
                         {
                             "addrStr": "oeDxGA2toopHTzDU5UEpMZYxaA5szzo6Q6",
                             "wif": "cTMjberyHH9DJjNhbbuFf9xKR9utuoJPcxE536EjnEVYVQBYBRYh",
-                            "balanceSat": 999999022816,
-                            "totalReceivedSat": 8999995602672,
+                            "balanceSat": 999998778520,
+                            "totalReceivedSat": 10999993281860,
                             "unconfirmedBalanceSat": 0,
                             "transactions": [
+                                "b44fcf3a366170a3b3f30f81c77290dbd56a7fa86124ca4dfb18e615e919fe42",
+                                "882dd5e800f57c6e430f1d8f19bbcc9c5e0d56831be55f7e9dd764bc85b81724",
                                 "3caf0e9c0e4a49d6c5d5579127d681de19ebbe2e8811e8f74f081b956bcb6f10",
                                 "ee144f4824037505b2ac51cc6c7e7e4482cb2137c06b452710b03636365a7e36",
                                 "be90d9b0a858754031600ab8054a8539d0e62879ea94d3bf44574ed45e6a0113",
@@ -37,17 +39,17 @@
                                 "96e621a20c442ddceb742d353f498605a2626694ed01967ed124c01729589918"
                             ],
                             "spentTransactions": [
-                                "3caf0e9c0e4a49d6c5d5579127d681de19ebbe2e8811e8f74f081b956bcb6f10"
+                                "b44fcf3a366170a3b3f30f81c77290dbd56a7fa86124ca4dfb18e615e919fe42"
                             ],
-                            "lastUpdated": 1540336928585
+                            "lastUpdated": 1540337959103
                         }
                     ],
                     "chains": {
                         "0": {
-                            "lastUpdate": 1540336930108
+                            "lastUpdate": 1540337960744
                         },
                         "1": {
-                            "lastUpdate": 1540336931427
+                            "lastUpdate": 1540337961932
                         }
                     }
                 },
@@ -56,10 +58,99 @@
                     "addresses": [],
                     "chains": {
                         "0": {
-                            "lastUpdate": 1540336932637
+                            "lastUpdate": 1540337962865
                         },
                         "1": {
-                            "lastUpdate": 1540336933864
+                            "lastUpdate": 1540337964102
+                        }
+                    }
+                }
+            }
+        },
+        "bitcoin": {
+            "name": "bitcoin",
+            "network": {
+                "messagePrefix": "\u0018Bitcoin Signed Message:\n",
+                "bech32": "bc",
+                "bip32": {
+                    "public": 76067358,
+                    "private": 76066276
+                },
+                "pubKeyHash": 0,
+                "scriptHash": 5,
+                "wif": 128,
+                "slip44": 2147483648
+            },
+            "seed": "5def4012a4c9a6d21e5bd333fe3998d35ff227589cc3438829bc3f632b87b83f0058cc15e8a67c1262b5dde2e6034c5f92905a6306c4e2e10780b9c34d61f642",
+            "accounts": {
+                "0": {
+                    "extended_private_key": "xprv9xpkYxg21oZGgnRXQyRAC944HdMXBtmcyHZTKUd3b6fVUJPkXLJ2aPckNhSVbYCtZBaHkbS6tZdsutesqehCddYRfC1bXtGyjoY8pHRkDnS",
+                    "addresses": [],
+                    "chains": {
+                        "0": {
+                            "lastUpdate": 1540337951031
+                        },
+                        "1": {
+                            "index": 1,
+                            "lastUpdate": 0
+                        }
+                    }
+                }
+            }
+        },
+        "litecoin": {
+            "name": "litecoin",
+            "network": {
+                "bip32": {
+                    "public": 27108450,
+                    "private": 27106558
+                },
+                "slip44": 2147483650,
+                "messagePrefix": "\u0018Litecoin Signed Message:\n",
+                "pubKeyHash": 48,
+                "scriptHash": 50,
+                "wif": 176
+            },
+            "seed": "5def4012a4c9a6d21e5bd333fe3998d35ff227589cc3438829bc3f632b87b83f0058cc15e8a67c1262b5dde2e6034c5f92905a6306c4e2e10780b9c34d61f642",
+            "accounts": {
+                "0": {
+                    "extended_private_key": "Ltpv78Yrw4S8AUsTSYCqcGQYQKTT7xFcJCxwAiVVrRcZZrDWPDmUW4bZp9g3MjyAjwUcrhzs7bQJDFBJkTrQujAtXCAaz3fFS5GkhpC7crdUVeE",
+                    "addresses": [],
+                    "chains": {
+                        "0": {
+                            "lastUpdate": 1540337958835
+                        },
+                        "1": {
+                            "lastUpdate": 1540337960404
+                        }
+                    }
+                }
+            }
+        },
+        "flo": {
+            "name": "flo",
+            "network": {
+                "bip32": {
+                    "public": 20201579,
+                    "private": 20200497
+                },
+                "slip44": 216,
+                "messagePrefix": "\u001bFlorincoin Signed Message:\n",
+                "pubKeyHash": 35,
+                "scriptHash": 94,
+                "wif": 163
+            },
+            "seed": "5def4012a4c9a6d21e5bd333fe3998d35ff227589cc3438829bc3f632b87b83f0058cc15e8a67c1262b5dde2e6034c5f92905a6306c4e2e10780b9c34d61f642",
+            "accounts": {
+                "0": {
+                    "extended_private_key": "Fprv4yfQHTUW9Ba5skqnJAwXzw1Q6YnMmgUVBggZpqjeJvQ8v253daMBjoD7A9nYN1BGGnRfTqEiXs31LeonKQJ1bmBG6pSy1LrX79Rzvt48C8n",
+                    "addresses": [],
+                    "chains": {
+                        "0": {
+                            "lastUpdate": 1540337959294
+                        },
+                        "1": {
+                            "lastUpdate": 1540337960742
                         }
                     }
                 }

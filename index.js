@@ -8,7 +8,7 @@ const options = {
     discover: false,
     supported_coins: [process.env.NET],
     networks: [],
-    serialized_data: JSON.parse(localStorage.getItem('oip-hdmw'))
+    //serialized_data: JSON.parse(localStorage.getItem('oip-hdmw'))
 }
 
 
