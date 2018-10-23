@@ -1,5 +1,6 @@
 require('dotenv').config();
 const Wallet = require('oip-hdmw').Wallet;
+const bip39 = require('bip39');
 
 const options = {
     discover: false,
@@ -7,7 +8,9 @@ const options = {
     networks: [],
 }
 
+
 function makeWallet() {
+    console.log(bip39.generateMnemonic())
     console.log(new Wallet().getMnemonic()); 
 } 
 
@@ -22,10 +25,9 @@ function getFloAddress(myWallet) {
 } 
 
 function makeFloTransaction(fromWallet, address, amount, floData) {
-    console.log(fromWallet);
     return new Promise((resolve, reject) => {
         fromWallet.sendPayment({
-            to: { "oTJ9QrMvg3Uh76dHd9etfjhpqfdv8KKBfN": amount }, floData
+            to: { [address]: amount }, floData
         })
         .then(txid => resolve(txid))
         .catch(error => reject(error))
@@ -45,7 +47,8 @@ function makeFloTransaction(fromWallet, address, amount, floData) {
     }
     Promise.all([makeWalletFromMnemonic(acc1), makeWalletFromMnemonic(acc2)])
     .then((wallet) => {
-        return makeFloTransaction(wallet[0], getFloAddress(wallet[1]), 0.001, "Test Data")
+        console.log(wallet);
+        // return makeFloTransaction(wallet[0], getFloAddress(wallet[1]), 0.001, "Test Data6")
     })
     .then((txData) => {
         console.log(txData)
