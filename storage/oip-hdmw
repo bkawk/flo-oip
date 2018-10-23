@@ -1,0 +1,69 @@
+{
+    "seed": "fluid exhaust enrich civil puppy sad cage pet stumble satoshi quarter airport",
+    "coins": {
+        "flo_testnet": {
+            "name": "flo_testnet",
+            "network": {
+                "bip32": {
+                    "public": 20201698,
+                    "private": 20200483
+                },
+                "slip44": 1,
+                "messagePrefix": "\u001bFlorincoin Signed Message:\n",
+                "pubKeyHash": 115,
+                "scriptHash": 58,
+                "wif": 239
+            },
+            "seed": "5def4012a4c9a6d21e5bd333fe3998d35ff227589cc3438829bc3f632b87b83f0058cc15e8a67c1262b5dde2e6034c5f92905a6306c4e2e10780b9c34d61f642",
+            "accounts": {
+                "0": {
+                    "extended_private_key": "Fprt4gSehgi8syyuiaqTgcQhziNMNdeBC9r6i6VdkLf8BBwK8HyKHvj7HW35CFRGbVomAE8kXnz6fHm7R35uipG4DCDPvuTJp46gkiEQwGBS3k6",
+                    "addresses": [
+                        {
+                            "addrStr": "oeDxGA2toopHTzDU5UEpMZYxaA5szzo6Q6",
+                            "wif": "cTMjberyHH9DJjNhbbuFf9xKR9utuoJPcxE536EjnEVYVQBYBRYh",
+                            "balanceSat": 999999022816,
+                            "totalReceivedSat": 8999995602672,
+                            "unconfirmedBalanceSat": 0,
+                            "transactions": [
+                                "3caf0e9c0e4a49d6c5d5579127d681de19ebbe2e8811e8f74f081b956bcb6f10",
+                                "ee144f4824037505b2ac51cc6c7e7e4482cb2137c06b452710b03636365a7e36",
+                                "be90d9b0a858754031600ab8054a8539d0e62879ea94d3bf44574ed45e6a0113",
+                                "2a62d86104e9e089926bbf066ab96c7086b509320a3a1b09c88d9636948f11fb",
+                                "5b8e505c4eb77c6f3c6190bfa4cad585739aa20ee528e3474fbbbee153c0859a",
+                                "02f1037a90d46623865c350e401989c5e8620eb1831c69286b287dbac2a93d36",
+                                "38cc8d872b8c2618e654cb7647dbef291488513e9c008daa03f221c21c1fa7d0",
+                                "c83172b9047dd9d0d4bfc90c23ef54044565a20a641f1d75adc2723f8771c227",
+                                "96e621a20c442ddceb742d353f498605a2626694ed01967ed124c01729589918"
+                            ],
+                            "spentTransactions": [
+                                "3caf0e9c0e4a49d6c5d5579127d681de19ebbe2e8811e8f74f081b956bcb6f10"
+                            ],
+                            "lastUpdated": 1540336928585
+                        }
+                    ],
+                    "chains": {
+                        "0": {
+                            "lastUpdate": 1540336930108
+                        },
+                        "1": {
+                            "lastUpdate": 1540336931427
+                        }
+                    }
+                },
+                "1": {
+                    "extended_private_key": "Fprt4gSehgi8syyummsJrdfFw5wXAhm8HLrhjH3htkR3utpoScqaVSYf1jQHSiVqZBNbfWDYxx1CKYpbnuKHHKYJ8amQYnKZwEVY5uzc7MXWwnJ",
+                    "addresses": [],
+                    "chains": {
+                        "0": {
+                            "lastUpdate": 1540336932637
+                        },
+                        "1": {
+                            "lastUpdate": 1540336933864
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
